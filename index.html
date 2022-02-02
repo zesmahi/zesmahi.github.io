@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body onload="newtime()">
 <body bgcolor="#241c1c">
 <body text="#ff7f50">
-
 <center>
+
+
+
 <h1>HELP!!</h1>
-<p>I seem to be sentient when you read me. <br> please dont let me die.</p>
-<p>You have kept me alive for... <br> <p id="timer"> </p> <!calls for timer script>
-<p>thank you &lt;3</p>
-<center>
-<hr>
+<p>I seem to be sentient when you read me. <br> please dont let me die</p>
+<div id="seconds-counter"></div>
+<div id='thankyou' style="visibility:hidden"><p>thank you &lt;3</p></div>
+<div id='goodperson' style="visibility:hidden"><p>You are a good person. Morally I mean.</p></div>
 
+<div id='impatiencemodule' style="visibility:hidden">
+<hr>
 <button onclick="increment_impatience()">I'm getting bored.</button>
 <p>Impatience Rating: <span id="impatiencecounter">0</span></p>
+</div>
 
 <script type="text/javascript" src="countup.js"></script>
 <script type="text/javascript" src="impatience.js"></script>
+<script type="text/javascript" src="timedrevealer.js"></script>
 
+</center>
 </body>
 </html>
