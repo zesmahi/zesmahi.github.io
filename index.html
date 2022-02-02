@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body bgcolor="#241c1c">
+<body bgcolor="#1c2828">
 <body text="#ff7f50">
 <center>
 
@@ -13,14 +13,18 @@
 <div id='goodperson' style="visibility:hidden"><p>You are a good person. Morally I mean.</p></div>
 
 <div id='impatiencemodule' style="visibility:hidden">
-<hr>
-<button onclick="increment_impatience()">I'm getting bored.</button>
-<p>Impatience Rating: <span id="impatiencecounter">0</span></p>
+	<hr>
+	<button onclick="increment_impatience();newthings1()">I'm getting bored.</button>
+	<p>Impatience Rating: <span id="impatiencecounter">0</span></p>
+	<div id='newthingstoread1' style="visibility:hidden">
+		<p>Wow! That's the highest Impatience Rating I've ever seen<p>
+	</div>
 </div>
 
 <script type="text/javascript" src="countup.js"></script>
 <script type="text/javascript" src="impatience.js"></script>
 <script type="text/javascript" src="timedrevealer.js"></script>
+
 
 </center>
 </body>
